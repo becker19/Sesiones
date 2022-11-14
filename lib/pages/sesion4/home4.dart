@@ -5,7 +5,7 @@ import 'package:ejercicio/pages/sesion4/emailpass.dart';
 import 'package:ejercicio/pages/sesion4/dropdownbutton.dart';
 import 'package:ejercicio/pages/sesion4/sliderwidget.dart';
 import 'package:ejercicio/pages/sesion4/checkboxswitchwidget.dart';
-import 'package:ejercicio/pages/sesion4/listviewwidget.dart';
+
 import 'package:ejercicio/pages/sesion4/infintyscrollwidget.dart';
 
 class Home4 extends StatelessWidget {
@@ -74,23 +74,23 @@ class Home4 extends StatelessWidget {
                 );
               },
             ),
-            ButtonWidget(
-              text: 'ListView',
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => const Listviewidget()),
-                );
-              },
-            ),
+            // ButtonWidget(
+            //   text: 'ListView',
+            //   onPressed: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //           builder: (context) => const ListViewBuilderScreen()),
+            //     );
+            //   },
+            // ),
             ButtonWidget(
               text: 'Infinity Scroll',
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const Infinityscrollwidget()),
+                      builder: (context) => const ScrollwidgetPage()),
                 );
               },
             ),
