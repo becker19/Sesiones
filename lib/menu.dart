@@ -58,6 +58,15 @@ class Menu extends StatelessWidget {
                 );
               },
             ),
+            buttonWidget(
+              name: 'Sesion 7',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Home6Screen()),
+                );
+              },
+            ),
           ],
         ),
       ),
