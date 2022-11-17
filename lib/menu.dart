@@ -1,6 +1,7 @@
 import 'package:ejercicio/pages/Sesion5/home5.dart';
 import 'package:ejercicio/pages/sesion4/home4.dart';
 import 'package:ejercicio/pages/sesion6/screen/home6screen.dart';
+import 'package:ejercicio/pages/sesion8/screens/menupage.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/sesion3/inicio.dart';
@@ -64,6 +65,15 @@ class Menu extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Home6Screen()),
+                );
+              },
+            ),
+            buttonWidget(
+              name: 'Sesion 8',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MenuPage()),
                 );
               },
             ),
